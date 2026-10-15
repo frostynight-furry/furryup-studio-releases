@@ -77,7 +77,7 @@ FurryUP Studio 将常用工具的启动和平台互动放进同一个工作区�
 
 ## 关于本仓库
 
-本仓库仅公开**安装包、软件介绍、更新记录和产品图标**，不公开 FurryUP Studio 主程序和其他插件源码。独立的 OBS 原生投屏接收器采用单独的开源范围，不包含在本仓库的源码附件中。
+本仓库仅公开**安装包、软件介绍、更新记录和产品图标**，不公开 FurryUP Studio 主程序和其他插件源码。独立 OBS 原生投屏接收器的[源码预览](https://github.com/frostynight-furry/furryup-airplay-receiver)在单独仓库公开；该仓库目前不提供经过公开发行验证的接收器二进制。
 
 GitHub 自动生成的 **Source code** 压缩包只包含对应标签下的介绍文档与图标。安装软件请下载上面的 **EXE**。
 
