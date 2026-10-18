@@ -9,20 +9,20 @@
 
 <p align="center">
   <a href="https://frostynight.top/furryup">官方网站</a> ·
-  <a href="https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.9.0">最新版本</a> ·
+  <a href="https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.9.1">最新版本</a> ·
   <a href="CHANGELOG.md">重要更新</a> ·
   <a href="https://github.com/frostynight-furry/furryup-desktop-pet-releases">粉丝端桌宠</a>
 </p>
 
 ## 下载 FurryUP Studio
 
-当前版本：**0.9.0**
+当前版本：**0.9.1**
 
 | 适用系统 | 官方安装包 |
 | --- | --- |
-| **Windows 10 / Windows 11，64 位（x64）** | **[下载 FurryUP Studio 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v0.9.0/FurryUPStudio-Setup-0.9.0.exe)** |
+| **Windows 10 / Windows 11，64 位（x64）** | **[下载 FurryUP Studio 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v0.9.1/FurryUPStudio-Setup-0.9.1.exe)** |
 
-[查看本版说明与 SHA-256 校验值 →](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.9.0)
+[查看本版说明与 SHA-256 校验值 →](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.9.1)
 
 下载后退出正在运行的 FurryUP Studio，再运行安装包。首次使用请先配置需要的直播工具、平台连接和插件。安装包尚未进行 Windows 代码签名，Windows 可能显示“未知发布者”；请从本仓库或官网获取，并核对发布页的校验值。
 
@@ -75,7 +75,7 @@ FurryUP Studio 采用**主程序 + 独立插件**架构：主程序提供统一�
 
 ## 界面预览
 
-以下截图来自 0.9.0 的实际界面，使用示例状态展示功能；不代表正在连接真实直播间。
+以下截图来自 0.9.1 的实际界面，使用示例状态展示功能；不代表正在连接真实直播间。
 
 **插件与更新**
 
@@ -101,14 +101,13 @@ FurryUP Studio 采用**主程序 + 独立插件**架构：主程序提供统一�
 
 ![FurryUP Studio 桌宠联动与模型管理界面](assets/screenshots/desktop-pet.png)
 
-## 本次更新 · 0.9.0
+## 本次更新 · 0.9.1
 
-- **插件与更新：** 重新设计原插件中心，统一展示主程序更新与插件管理，保留按需安装、启停、回滚和卸载。
-- **一键更新全部：** 集中检查并更新已安装插件，下载和校验主程序安装包；逐项显示进度、结果与失败原因，支持重试。
-- **主程序安装：** 下载后由主播选择“退出并安装”，继续检查 OBS Studio 是否正在直播或录制。
-- **中英文界面：** 支持简体中文与 English 切换，选择同步到已打开的界面并保留；用户输入与模型名称保持原文。
-- **版本信息：** “关于 FurryUP Studio”集中展示主程序与已安装插件版本。
-- **新版展示：** 安装包、界面截图与更新记录同步更新，保留四平台消息、特定礼物规则、全局礼物特效和独立插件架构。
+- **修正升级目标：** 当前版本已是最新或高于服务器版本时，不再把旧版本显示为升级目标或使用升级箭头，保留禁止降级检查。
+- **同步在线更新：** 软件内更新支持三段数字版本，GitHub 安装包和软件内更新清单同步到 0.9.1。
+- **一致的下载内容：** 两个更新渠道使用同一份安装包，并核对真实下载内容的大小与 SHA-256。
+- **更新行为保持明确：** 一键更新已安装插件并下载主程序；安装包准备好后，由主播选择“退出并安装”，继续检查 OBS Studio 直播与录制状态。
+- **插件版本保持不变：** 直播工作台 0.5.1、直播助手 0.2.2、桌宠联动 0.5.1、iPhone 投屏预览 0.4.1。
 
 [查看历史重要更新 →](CHANGELOG.md)
 
@@ -118,7 +117,7 @@ FurryUP Studio 采用**主程序 + 独立插件**架构：主程序提供统一�
 
 GitHub 自动生成的 **Source code** 压缩包只包含对应标签下的介绍文档与展示图片。安装软件请下载上面的 **EXE**。
 
-本包不包含 iPhone 投屏内部接收器，该功能仍处于内部 Alpha。GitHub 发布与客户端在线更新渠道分别管理，可用更新以客户端实际检查结果为准。
+本包不包含 iPhone 投屏内部接收器，该功能仍处于内部 Alpha。GitHub 与软件内更新同步发布，提供相同版本和相同内容的安装包。主程序和独立插件分别检查版本，可在“插件与更新”中查看。
 
 FurryUP 后续版本统一使用三段数字：维护更新递增末位、功能更新递增中位、重大更新递增首位，历史编号保留。
 
