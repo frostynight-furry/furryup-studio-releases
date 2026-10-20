@@ -9,20 +9,20 @@
 
 <p align="center">
   <a href="https://frostynight.top/furryup">官方网站</a> ·
-  <a href="https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.9.1">最新版本</a> ·
+  <a href="https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.12.1">最新版本</a> ·
   <a href="CHANGELOG.md">重要更新</a> ·
   <a href="https://github.com/frostynight-furry/furryup-desktop-pet-releases">粉丝端桌宠</a>
 </p>
 
 ## 下载 FurryUP Studio
 
-当前版本：**0.9.1**
+当前版本：**0.12.1**
 
 | 适用系统 | 官方安装包 |
 | --- | --- |
-| **Windows 10 / Windows 11，64 位（x64）** | **[下载 FurryUP Studio 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v0.9.1/FurryUPStudio-Setup-0.9.1.exe)** |
+| **Windows 10 / Windows 11，64 位（x64）** | **[下载 FurryUP Studio 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v0.12.1/FurryUPStudio-Setup-0.12.1.exe)** |
 
-[查看本版说明与 SHA-256 校验值 →](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.9.1)
+[查看本版说明与 SHA-256 校验值 →](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.12.1)
 
 下载后退出正在运行的 FurryUP Studio，再运行安装包。首次使用请先配置需要的直播工具、平台连接和插件。安装包尚未进行 Windows 代码签名，Windows 可能显示“未知发布者”；请从本仓库或官网获取，并核对发布页的校验值。
 
@@ -65,7 +65,7 @@ FurryUP Studio 采用**主程序 + 独立插件**架构：主程序提供统一�
 
 直播助手提供实时建议与复盘入口。建议先展示给主播；问题和投票需由主播明确采纳或开始后才进入 OBS Studio。在线建议需要主动发起，并使用本机已登录 Codex 账户的可用额度。停止助手不会中断直播工作台的消息采集，原有记录继续保留。
 
-联网语音需要网络连接，在线点歌需要配置兼容的音乐服务。
+视频号会尝试复用本机保存的登录状态；登录过期或平台要求验证时，仍需重新扫码。联网语音需要网络连接，在线点歌需要配置兼容的音乐服务。
 
 ### 把角色陪伴延续到直播之外
 
@@ -75,7 +75,7 @@ FurryUP Studio 采用**主程序 + 独立插件**架构：主程序提供统一�
 
 ## 界面预览
 
-以下截图来自 0.9.1 的实际界面，使用示例状态展示功能；不代表正在连接真实直播间。
+以下截图来自 0.12.1 的实际界面，使用示例状态展示功能；不代表正在连接真实直播间。
 
 **插件与更新**
 
@@ -101,13 +101,14 @@ FurryUP Studio 采用**主程序 + 独立插件**架构：主程序提供统一�
 
 ![FurryUP Studio 桌宠联动与模型管理界面](assets/screenshots/desktop-pet.png)
 
-## 本次更新 · 0.9.1
+## 本次更新 · 0.12.1
 
-- **修正升级目标：** 当前版本已是最新或高于服务器版本时，不再把旧版本显示为升级目标或使用升级箭头，保留禁止降级检查。
-- **同步在线更新：** 软件内更新支持三段数字版本，GitHub 安装包和软件内更新清单同步到 0.9.1。
-- **一致的下载内容：** 两个更新渠道使用同一份安装包，并核对真实下载内容的大小与 SHA-256。
-- **更新行为保持明确：** 一键更新已安装插件并下载主程序；安装包准备好后，由主播选择“退出并安装”，继续检查 OBS Studio 直播与录制状态。
-- **插件版本保持不变：** 直播工作台 0.5.1、直播助手 0.2.2、桌宠联动 0.5.1、iPhone 投屏预览 0.4.1。
+- **操作及时恢复：** 修复更新结束后按钮仍不可用、旧状态覆盖新结果的问题；状态读取超时会提示重试。
+- **减少相互等待：** 检查更新时仍可打开和操作工作台；开播准备中的平台连接与其他软件启动并行进行。
+- **保留准备进度：** 启动、保存或准备预设时可先查看其他页面，返回原预设后保留草稿和操作进度。
+- **工作台 0.8.3：** 支持取消正在进行的平台连接，各平台分别恢复操作按钮；保留视频号登录状态复用及先前的采集、头像和点歌修复。
+- **同步发布：** 主程序安装包与软件内更新使用同一份文件；直播工作台也提供独立更新。
+- **随包插件：** 直播工作台 0.8.3、直播助手 0.5.0、桌宠联动 0.5.2、iPhone 投屏预览 0.4.2。投屏预览仍不包含原生接收器。
 
 [查看历史重要更新 →](CHANGELOG.md)
 
