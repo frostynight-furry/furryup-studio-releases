@@ -9,20 +9,20 @@
 
 <p align="center">
   <a href="https://frostynight.top/furryup">官方网站</a> ·
-  <a href="https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.12.1">最新版本</a> ·
+  <a href="https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.12.4">最新版本</a> ·
   <a href="CHANGELOG.md">重要更新</a> ·
   <a href="https://github.com/frostynight-furry/furryup-desktop-pet-releases">粉丝端桌宠</a>
 </p>
 
 ## 下载 FurryUP Studio
 
-当前版本：**0.12.1**
+当前版本：**0.12.4**
 
 | 适用系统 | 官方安装包 |
 | --- | --- |
-| **Windows 10 / Windows 11，64 位（x64）** | **[下载 FurryUP Studio 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v0.12.1/FurryUPStudio-Setup-0.12.1.exe)** |
+| **Windows 10 / Windows 11，64 位（x64）** | **[下载 FurryUP Studio 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v0.12.4/FurryUPStudio-Setup-0.12.4.exe)** |
 
-[查看本版说明与 SHA-256 校验值 →](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.12.1)
+[查看本版说明与 SHA-256 校验值 →](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v0.12.4)
 
 下载后退出正在运行的 FurryUP Studio，再运行安装包。首次使用请先配置需要的直播工具、平台连接和插件。安装包尚未进行 Windows 代码签名，Windows 可能显示“未知发布者”；请从本仓库或官网获取，并核对发布页的校验值。
 
@@ -75,7 +75,7 @@ FurryUP Studio 采用**主程序 + 独立插件**架构：主程序提供统一�
 
 ## 界面预览
 
-以下截图来自 0.12.1 的实际界面，使用示例状态展示功能；不代表正在连接真实直播间。
+以下截图来自 0.12.4 的实际界面，使用示例状态展示功能；不代表正在连接真实直播间。
 
 **插件与更新**
 
@@ -101,14 +101,15 @@ FurryUP Studio 采用**主程序 + 独立插件**架构：主程序提供统一�
 
 ![FurryUP Studio 桌宠联动与模型管理界面](assets/screenshots/desktop-pet.png)
 
-## 本次更新 · 0.12.1
+## 本次更新 · 0.12.4
 
-- **操作及时恢复：** 修复更新结束后按钮仍不可用、旧状态覆盖新结果的问题；状态读取超时会提示重试。
-- **减少相互等待：** 检查更新时仍可打开和操作工作台；开播准备中的平台连接与其他软件启动并行进行。
-- **保留准备进度：** 启动、保存或准备预设时可先查看其他页面，返回原预设后保留草稿和操作进度。
-- **工作台 0.8.3：** 支持取消正在进行的平台连接，各平台分别恢复操作按钮；保留视频号登录状态复用及先前的采集、头像和点歌修复。
-- **同步发布：** 主程序安装包与软件内更新使用同一份文件；直播工作台也提供独立更新。
-- **随包插件：** 直播工作台 0.8.3、直播助手 0.5.0、桌宠联动 0.5.2、iPhone 投屏预览 0.4.2。投屏预览仍不包含原生接收器。
+- **插件加载：** 修复冷启动时投屏和桌面陪伴误报加载超时，保留插件完整性检查。
+- **模型导入：** 扫描、复制和校验放到工作线程，降低导入大模型时的界面阻塞；失败时回滚。
+- **直播稳定性：** 修复旧房间的迟到消息干扰当前统计与投票，改进停止采集和重连的衔接。
+- **界面响应：** 合并工作台与助手的高频刷新，优化音效与曲库读取，修复刷新时焦点丢失。
+- **更新与退出：** 修复更新后自动启动缺少系统目录变量，以及退出时窗口已销毁引发的异常。
+- **随包插件：** 直播工作台 0.8.4、直播助手 0.5.1、桌面陪伴/桌宠联动 0.5.3、iPhone 投屏预览 0.4.6。
+- **投屏预览：** 公开包不包含原生接收器，暂不提供 iPhone 镜像接收；实机音视频仍在本机测试。
 
 [查看历史重要更新 →](CHANGELOG.md)
 
