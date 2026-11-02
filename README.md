@@ -7,34 +7,39 @@ FurryUP Studio 把开播准备、直播互动和播后复盘放在一个 Windows
 | 客户端 | 当前版本 | 下载 |
 | --- | --- | --- |
 | Windows 10 / 11 x64 | 2.1.0 稳定版 | [EXE 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v2.1.0/FurryUPStudio-Setup-2.1.0.exe) · [版本说明](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v2.1.0) |
-| Android 手机 / 平板（8.0+） | 0.3.2 测试版 | [APK 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.3.2/FurryUP-Studio-Android-0.3.2-test.apk) · [说明与校验值](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/android-v0.3.2) |
+| Android 手机 / 平板（8.0+） | 0.4.0 测试版 | [APK 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.4.0/FurryUP-Studio-Android-0.4.0-test.apk) · [说明与校验值](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/android-v0.4.0) |
 
 [万圣节互动演示](#万圣节礼物互动) · [官方网站](https://frostynight.top/furryup)
 
 ## 手机与平板
 
-Android 是 FurryUP Studio 的移动客户端，可以独立使用。Windows 与 Android 分别维护版本和安装包；安卓测试版使用 `android-v*` 标签，不覆盖 Windows 稳定发行与更新。
+Android 是 FurryUP Studio 的移动客户端，可独立使用。与 Windows 使用同一品牌及 FUS 账号，分别维护版本与安装包；Android 使用 `android-v*` 预发布标签。
 
-- 戴着兽头直播时，用大字弹幕、直播画面和礼物提示看清互动；支持深浅主题及多套本机兽设。
-- 可选择全部已支持的平台，不另设两个平台上限；窗口保留一路画面，底部四按钮切换，已成功连接来源的弹幕与礼物继续合并。B站公开直播间的连接与画面已验证；抖音、快手、视频号属于试验性网页适配，真实授权与持续运行仍待验收。应用负责监看，不替代平台推流。
-- 创作者中心展示粉丝分布与独立来源的收益趋势。可不登录 FurryUP，按需授权读取本机平台数据；登录 FurryUP 后可获取已同步记录。本机数据上传默认关闭。
-- 多设备数据自动同步默认每 24 小时一次，手动刷新立即执行。零值明细默认收起；缺失日期、真实零值、负值更正与不同单位分别保留。
-- 平台登录接收已按专用共享契约实现，只有来源设备明确授权才可领取。服务端已提供共享接口，真实双设备与平台会话仍待验收，抖音共享身份核验还需补齐；不可用时回到官方扫码，不能把登录 FurryUP 等同于已登录四个平台。
+0.4.0 重新整理了整个 App：
 
-沿用原安卓发行签名并递增版本码，支持从 0.2.0 / 0.3.0 / 0.3.1 覆盖升级。0.3.1 修正共享登录再次使用时的授权与期限检查；旧未绑定期限的浏览器登录缓存会重新核验，房间与业务数据保留。首次安装请从本页 Release 获取 APK；安装包附 SHA-256。礼物提示不代表结算收入。
+- **首页**：准备本场兽设、监看平台与直播间，突出“开始直播”。
+- **创作者中心**：优先查看概览、粉丝分布与独立来源的收益趋势；账号授权、采集和同步放入二级页面。
+- **我的**：管理 FurryUP 账号、多套兽设、直播间与平台、多设备数据、外观及帮助。
+- 手机底部导航、宽屏侧栏与适合宽度的分栏内容；二级返回栏固定在顶部。深浅主题、透明兽设与桌面角色入口保留。
+- 可选择全部已支持的平台，窗口只显示一路画面，底部四按钮切换；已成功连接来源的弹幕与礼物继续合并。应用负责监看，推流仍由平台或电脑负责。
+- 多设备数据每天自动同步一次，手动刷新立即执行；本机上传默认关闭。零值明细默认收起，真实零值、缺失日期、负值更正与不同单位分别保留。
 
-Android 0.3.2 单画面与四平台切换，界面内容为演示数据；未加入本次监看的平台置灰：
+沿用原安卓发行签名，0.4.0 的版本码为11，支持从0.3.2覆盖升级。手机/平板模拟器和受控升级已验证。B站公开房间的握手及画面已复测；抖音、快手、视频号真实授权与长期运行，以及 FUS 真实双设备数据和共享平台登录仍待联调，不能把登录 FUS 等同于已自动连接四个平台。
 
-![Android 平板单画面、四个平台切换按钮和大字阅读，演示数据](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.3.2/FurryUP-Studio-Android-0.3.2-tablet-live-example.png)
+以下为实际原生界面；粉丝和收益为合成示例：
 
-以下创作者中心截图取自 Android 0.3.1，数值均为示例数据：
-
-![Android 创作者概览，示例粉丝分布与按来源记录的月度收益](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.3.1/FurryUP-Studio-Android-0.3.1-creator-tablet-example.png)
+![Android 平板首页，准备兽设与直播间](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.4.0/FurryUP-Studio-Android-0.4.0-home-tablet.png)
 
 <details>
-<summary>查看手机布局（示例数据）</summary>
+<summary>查看创作者中心、手机及深色布局</summary>
 
-![Android 手机创作者概览，使用示例数据](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.3.1/FurryUP-Studio-Android-0.3.1-creator-phone-example.png)
+![Android 创作者中心，粉丝和收益为合成示例](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.4.0/FurryUP-Studio-Android-0.4.0-creator-tablet-example.png)
+
+| 手机首页 | 手机“我的” |
+| --- | --- |
+| ![Android 手机首页](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.4.0/FurryUP-Studio-Android-0.4.0-home-phone.png) | ![Android 手机个人中心](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.4.0/FurryUP-Studio-Android-0.4.0-personal-phone.png) |
+
+![Android 平板深色首页](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.4.0/FurryUP-Studio-Android-0.4.0-home-tablet-dark.png)
 
 </details>
 
