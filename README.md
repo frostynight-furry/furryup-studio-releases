@@ -4,7 +4,7 @@
 
 FurryUP Studio 把开播准备、直播互动和播后复盘放在一个 Windows 工作台。主播可以在同一处查看 B站、抖音、快手和视频号的弹幕与礼物，用 OBS 展示互动效果，也可以在下播后对照各平台的粉丝变化与收益记录。
 
-**[下载 2.1.0 安装包 · Windows 10 / 11 x64](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v2.1.0/FurryUPStudio-Setup-2.1.0.exe)**　·　[本版说明与 SHA-256](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v2.1.0)　·　[官方网站](https://frostynight.top/furryup)
+**[下载 2.1.0 安装包 · Windows 10 / 11 x64](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v2.1.0/FurryUPStudio-Setup-2.1.0.exe)**　·　[本版说明与 SHA-256](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v2.1.0)　·　[万圣节互动截图](#万圣节礼物互动)　·　[官方网站](https://frostynight.top/furryup)
 
 ## 第一次开播
 
@@ -30,6 +30,16 @@ FurryUP Studio 把开播准备、直播互动和播后复盘放在一个 Windows
 ![礼物效果库，展示效果筛选、本机试播与触发设置](assets/screenshots/gift-interactions.png)
 
 </details>
+
+### 万圣节礼物互动
+
+这三帧取自 2026 年 11 月 1 日的 VTube Studio 与 OBS 联动预演，画面里是夜霜自己的模型和万圣节场景。50 份模拟礼物触发「霜月糖果夜」后，糖果先飞向双手，南瓜灯随之放大亮起，幽灵飘过身旁。南瓜灯淡出后，夜霜变成红瞳，蝙蝠群飞过画面。
+
+![霜月糖果夜预演中段，发光的南瓜灯在夜霜身前放大，幽灵从灯旁飘过](assets/screenshots/halloween-lantern-ghosts.png)
+
+| 开场 · 双手接糖 | 收尾 · 红瞳与蝙蝠群 |
+| :---: | :---: |
+| ![糖果从四面飞向夜霜的双手](assets/screenshots/halloween-candy.png) | ![夜霜显出红瞳，蝙蝠群飞过月夜森林](assets/screenshots/halloween-bats.png) |
 
 ## 下播后看数据
 
@@ -63,7 +73,7 @@ Get-FileHash .\FurryUPStudio-Setup-2.1.0.exe -Algorithm SHA256
 
 </details>
 
-六张截图均取自 2.1.0 公开安装包的运行界面。控制台消息来自本机预演，图表数值为演示数据。
+六张软件界面截图取自 2.1.0 公开安装包。控制台消息来自本机预演，图表数值为演示数据。
 
 本仓库提供安装包、产品介绍和更新记录。主程序、界面与专属互动内容保持闭源。GitHub 自动生成的 Source code 压缩包仅含本仓库的文档与展示图片。[历史更新](CHANGELOG.md)
 
