@@ -4,7 +4,7 @@
 
 FurryUP Studio 把开播准备、直播互动和播后复盘放在一个 Windows 工作台。主播可以在同一处查看 B站、抖音、快手和视频号的弹幕与礼物，用 OBS 展示互动效果，也可以在下播后对照各平台的粉丝变化与收益记录。
 
-**[下载 2.1.0 安装包 · Windows 10 / 11 x64](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v2.1.0/FurryUPStudio-Setup-2.1.0.exe)**　·　[本版说明与 SHA-256](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v2.1.0)　·　[万圣节互动截图](#万圣节礼物互动)　·　[官方网站](https://frostynight.top/furryup)
+**[下载 2.1.0 安装包 · Windows 10 / 11 x64](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v2.1.0/FurryUPStudio-Setup-2.1.0.exe)**　·　[本版说明与 SHA-256](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v2.1.0)　·　[万圣节互动演示](#万圣节礼物互动)　·　[官方网站](https://frostynight.top/furryup)
 
 ## 第一次开播
 
@@ -33,7 +33,24 @@ FurryUP Studio 把开播准备、直播互动和播后复盘放在一个 Windows
 
 ### 万圣节礼物互动
 
-这三帧取自 2026 年 11 月 1 日的 VTube Studio 与 OBS 联动预演，画面里是夜霜自己的模型和万圣节场景。50 份模拟礼物触发「霜月糖果夜」后，糖果先飞向双手，南瓜灯随之放大亮起，幽灵飘过身旁。南瓜灯淡出后，夜霜变成红瞳，蝙蝠群飞过画面。
+**有声演示 · 50 份模拟礼物 · 17.6 秒**
+
+这段视频节选自 2026 年 11 月 1 日夜霜的 VTube Studio 与 OBS 联动预演，配上了最终修订的音效。前置礼物雨过后，糖果飞向双手。钟声响起，南瓜灯亮起，幽灵飘过身旁。灯光淡去后，夜霜变成红瞳，蝙蝠群掠过画面。
+
+https://github.com/user-attachments/assets/77da31ca-e3ed-4c16-97ac-772f43193f05
+
+<details>
+<summary>演示音效署名</summary>
+
+幽灵主声采用 Billy_Storm 的录音，片段经剪辑、调速与混音。[ghostly_moan.wav](https://freesound.org/people/Billy_Storm/sounds/164285/) · [CC BY 3.0 许可](https://creativecommons.org/licenses/by/3.0/)
+
+以下录音以 CC0 1.0 提供，演示中使用了剪辑和混音后的片段。[CC0 1.0 说明](https://creativecommons.org/publicdomain/zero/1.0/)
+
+- 糖果落下与糖纸声由 j1987 录制。[糖果](https://freesound.org/people/j1987/sounds/573197/) · [糖纸](https://freesound.org/people/j1987/sounds/573195/)
+- 钟声由 hyderpotter 录制，另一层幽灵声由 SirBedlam 录制。[钟声](https://freesound.org/people/hyderpotter/sounds/80290/) · [幽灵声](https://freesound.org/people/SirBedlam/sounds/329519/)
+- 蝙蝠叫声由 polymorpheva 录制，振翅声使用了 ani_music 的拟音。[蝙蝠叫声](https://freesound.org/people/polymorpheva/sounds/104205/) · [振翅拟音](https://freesound.org/people/ani_music/sounds/244976/)
+
+</details>
 
 ![霜月糖果夜预演中段，发光的南瓜灯在夜霜身前放大，幽灵从灯旁飘过](assets/screenshots/halloween-lantern-ghosts.png)
 
