@@ -7,7 +7,7 @@ FurryUP Studio 把开播准备、直播互动和播后复盘放在一个 Windows
 | 客户端 | 当前版本 | 下载 |
 | --- | --- | --- |
 | Windows 10 / 11 x64 | 2.1.0 稳定版 | [EXE 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v2.1.0/FurryUPStudio-Setup-2.1.0.exe) · [版本说明](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v2.1.0) |
-| Android 手机 / 平板（8.0+） | 0.3.0 测试版 | [APK 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.3.0/FurryUP-Studio-Android-0.3.0-test.apk) · [说明与校验值](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/android-v0.3.0) |
+| Android 手机 / 平板（8.0+） | 0.3.1 测试版 | [APK 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.3.1/FurryUP-Studio-Android-0.3.1-test.apk) · [说明与校验值](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/android-v0.3.1) |
 
 [万圣节互动演示](#万圣节礼物互动) · [官方网站](https://frostynight.top/furryup)
 
@@ -21,16 +21,16 @@ Android 是 FurryUP Studio 的移动客户端，可以独立使用。Windows 与
 - 多设备数据自动同步默认每 24 小时一次，手动刷新立即执行。零值明细默认收起；缺失日期、真实零值、负值更正与不同单位分别保留。
 - 平台登录接收已按专用共享契约实现，只有来源设备明确授权才可领取。服务端已提供共享接口，真实双设备与平台会话仍待验收，抖音共享身份核验还需补齐；不可用时回到官方扫码，不能把登录 FurryUP 等同于已登录四个平台。
 
-沿用原安卓发行签名并递增版本码，已验证从 0.2.0 覆盖升级保留主题、字号和布局。首次安装请从本页 Release 获取 APK；安装包附 SHA-256。礼物提示不代表结算收入。
+沿用原安卓发行签名并递增版本码，支持从 0.2.0 / 0.3.0 覆盖升级。0.3.1 修正共享登录再次使用时的授权与期限检查；旧未绑定期限的浏览器登录缓存会重新核验，房间与业务数据保留。首次安装请从本页 Release 获取 APK；安装包附 SHA-256。礼物提示不代表结算收入。
 
-以下是 Android 0.3.0 原生界面，数值均为示例数据：
+以下是 Android 0.3.1 原生界面，数值均为示例数据：
 
-![Android 创作者概览，示例粉丝分布与按来源记录的月度收益](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.3.0/FurryUP-Studio-Android-0.3.0-creator-tablet-example.png)
+![Android 创作者概览，示例粉丝分布与按来源记录的月度收益](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.3.1/FurryUP-Studio-Android-0.3.1-creator-tablet-example.png)
 
 <details>
 <summary>查看手机布局（示例数据）</summary>
 
-![Android 手机创作者概览，使用示例数据](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.3.0/FurryUP-Studio-Android-0.3.0-creator-phone-example.png)
+![Android 手机创作者概览，使用示例数据](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.3.1/FurryUP-Studio-Android-0.3.1-creator-phone-example.png)
 
 </details>
 
