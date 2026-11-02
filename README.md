@@ -6,7 +6,7 @@ FurryUP Studio 把开播准备、直播互动和播后复盘放在一个 Windows
 
 | 客户端 | 当前版本 | 下载 |
 | --- | --- | --- |
-| Windows 10 / 11 x64 | 2.1.0 稳定版 | [EXE 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v2.1.0/FurryUPStudio-Setup-2.1.0.exe) · [版本说明](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v2.1.0) |
+| Windows 10 / 11 x64 | 2.3.0 稳定版 | [EXE 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v2.3.0/FurryUPStudio-Setup-2.3.0.exe) · [版本说明与独立模块](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v2.3.0) |
 | Android 手机 / 平板（8.0+） | 0.4.0 测试版 | [APK 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.4.0/FurryUP-Studio-Android-0.4.0-test.apk) · [说明与校验值](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/android-v0.4.0) |
 
 [万圣节互动演示](#万圣节礼物互动) · [官方网站](https://frostynight.top/furryup)
@@ -56,6 +56,15 @@ Android 是 FurryUP Studio 的移动客户端，可独立使用。与 Windows �
 四个平台可分别连接。某个平台需要扫码或重新授权时，可以在「平台账号」处理。可收到的消息类型和观众指标由各平台提供。
 
 ![直播快捷控制台，展示四个平台的状态、本机预演的弹幕和礼物，以及朗读队列](assets/screenshots/live-workbench.png)
+
+**悬浮歌词与播放进度**　2.3.0 的主播助手可显示逐句歌词，拖动进度条即可跳转，暂停时也能调整位置。网易云、QQ 与本地 LRC 歌词随实际播放位置更新。升级主程序后，请在「组件与更新」同时更新主播助手到 0.13.0。
+
+<details>
+<summary>查看悬浮歌词界面</summary>
+
+![2.3.0 主播助手悬浮窗，展示逐句歌词和可拖动的歌曲进度条；歌曲与歌词为原创演示内容，直播数据为空](assets/screenshots/floating-player-230.png)
+
+</details>
 
 <a id="gift-interaction-and-model-collision"></a>
 
@@ -115,10 +124,23 @@ https://github.com/user-attachments/assets/77da31ca-e3ed-4c16-97ac-772f43193f05
 升级前请正常退出正在运行的 FurryUP Studio，再运行 EXE。公开安装包尚未进行 Windows 代码签名，Windows 可能显示「未知发布者」。可在 PowerShell 中运行下列命令，并与本版 Release 的 SHA-256 对照。
 
 ```powershell
-Get-FileHash .\FurryUPStudio-Setup-2.1.0.exe -Algorithm SHA256
+Get-FileHash .\FurryUPStudio-Setup-2.3.0.exe -Algorithm SHA256
 ```
 
 「组件与更新」列出直播接入、礼物互动、点歌音频、画布与 OBS 的版本和更新状态。主播助手与桌宠联动按需使用。iPhone 投屏随包提供界面预览，接收端未包含在公开安装包中。
+
+本版同时发布到 GitHub 与 FUS 软件内更新通道，两处安装包一致。独立模块、插件和签名内容归档及校验值见 [2.3.0 Release 附件](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v2.3.0)；日常升级使用软件内「组件与更新」。
+
+| 内置模块 / 插件 / 内容 | 当前版本 |
+| --- | --- |
+| 多平台直播与创作者数据采集 | 1.2.0 |
+| 礼物互动与碰撞引擎 | 1.3.1 |
+| 点歌与音频 | 1.3.0 |
+| 画布与 OBS | 1.5.0 |
+| 主播助手 | 0.13.0 |
+| 桌宠联动 / iPhone 投屏预览 | 0.6.3 / 0.7.1 |
+| 礼物内容 v3 | 1.8.2 |
+| 助手策略 / 通用模型规则 | 1.1.0 / 1.0.0 |
 
 <details>
 <summary>查看组件与更新界面</summary>
@@ -127,7 +149,7 @@ Get-FileHash .\FurryUPStudio-Setup-2.1.0.exe -Algorithm SHA256
 
 </details>
 
-六张软件界面截图取自 2.1.0 公开安装包。控制台消息来自本机预演，图表数值为演示数据。
+六张工作台与创作者中心截图取自 2.1.0 公开安装包，悬浮歌词截图取自 2.3.0。控制台消息来自本机预演，图表数值与歌词为演示内容。
 
 本仓库提供安装包、产品介绍和更新记录。主程序、界面与专属互动内容保持闭源。GitHub 自动生成的 Source code 压缩包仅含本仓库的文档与展示图片。[历史更新](CHANGELOG.md)
 
