@@ -178,19 +178,19 @@ Android 是 FurryUP Studio 的移动客户端，可独立使用，与 Windows �
 
 ```powershell
 Get-FileHash .\FurryUPStudio-Setup-3.0.0.exe -Algorithm SHA256
-# SHA-256: 5CCF2CF3CF22ED0577709CF5F02957F7A925FFC86BD00D6754911413C137F9D3
+# SHA-256: 5C4F99C774F498B180BECB2D3D9D724155A06DFFBB7F444159A06D723C69D999
 ```
 
 「组件与更新」页面集中展示内置四大模块、扩展组件与主程序的实时版本状态，支持在软件内直接检查并应用热更新。本版同时发布到 GitHub Releases 与 FUS 软件内更新通道，两处安装包与签名摘要完全一致。
 
 | 内置模块 / 插件 / 内容 | 3.0.0 内置版本 |
 | --- | --- |
-| 多平台直播与创作者数据采集 (`furryup.live-connect`) | **1.3.0** |
-| 礼物互动与碰撞引擎 (`furryup.gift-interactions`) | **1.4.0** |
-| 点歌与音频 (`furryup.song-audio`) | **1.5.0** |
-| 画布与 OBS (`furryup.obs-canvas`) | **1.6.0** |
-| 主播助手 (`furryup.live-assistant`) | **0.15.0** |
-| 桌宠联动 / iPhone 投屏预览 | **0.8.0 / 0.8.0** |
+| 多平台直播与创作者数据采集 (`furryup.live-connect`) | **1.3.1** |
+| 礼物互动与碰撞引擎 (`furryup.gift-interactions`) | **1.4.1** |
+| 点歌与音频 (`furryup.song-audio`) | **1.5.1** |
+| 画布与 OBS (`furryup.obs-canvas`) | **1.6.1** |
+| 主播助手 (`furryup.live-assistant`) | **0.16.0** |
+| 桌宠联动 / iPhone 投屏预览 | **0.9.0 / 0.9.0** |
 | 礼物内容 v3 | **1.8.2** |
 | 助手策略 / 通用模型规则 | **1.1.0 / 1.0.0** |
 
