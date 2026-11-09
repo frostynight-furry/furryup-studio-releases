@@ -178,7 +178,7 @@ Android 是 FurryUP Studio 的移动客户端，可独立使用，与 Windows �
 
 ```powershell
 Get-FileHash .\FurryUPStudio-Setup-3.0.0.exe -Algorithm SHA256
-# SHA-256: 5C4F99C774F498B180BECB2D3D9D724155A06DFFBB7F444159A06D723C69D999
+# SHA-256: 960F76CB8E4592FAF2319DFC38E0AF7E23768AE73CE072D68B736EDCDF8512FF
 ```
 
 「组件与更新」页面集中展示内置四大模块、扩展组件与主程序的实时版本状态，支持在软件内直接检查并应用热更新。本版同时发布到 GitHub Releases 与 FUS 软件内更新通道，两处安装包与签名摘要完全一致。
