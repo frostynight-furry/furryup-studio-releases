@@ -1,15 +1,15 @@
 <p align="center"><img src="assets/furryup-studio.png" width="96" height="96" alt="FurryUP Studio 图标"></p>
 
-# FurryUP Studio 3.0
+# FurryUP Studio
 
 FurryUP Studio 把**开播准备**、**多平台直播互动**、**OBS 舞台合成与骑士团入场特效**、**双栏点歌广播台**和**播后创作者数据复盘**整合在一个 Windows 桌面工作台。主播可以在同一处连接 B站、抖音、快手和微信视频号，实时处理弹幕、礼物、点歌与连麦 PK 整活，并在下播后对照各平台的粉丝变化与收益走势。
 
 | 客户端 | 当前版本 | 下载 |
 | --- | --- | --- |
-| Windows 10 / 11 x64 | **3.6.1 稳定版** | [EXE 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v3.6.1/FurryUPStudio-Setup-3.6.1.exe) · [版本说明与校验值](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v3.6.1) |
-| Android 手机 / 平板（8.0+） | 0.4.0 测试版 | [APK 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.4.0/FurryUP-Studio-Android-0.4.0-test.apk) · [说明与校验值](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/android-v0.4.0) |
+| Windows 10 / 11 x64 | **3.8.1 正式版** | [EXE 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/v3.8.1/FurryUPStudio-Setup-3.8.1.exe) · [版本说明与校验值](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/v3.8.1) |
+| Android 手机 / 平板（8.0+） | **0.9.1 Beta** | [APK 安装包](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.9.1/FurryUP-Studio-Android-0.9.1.apk) · [说明与校验值](https://github.com/frostynight-furry/furryup-studio-releases/releases/tag/android-v0.9.1) |
 
-[尊贵骑士团与连麦 PK 特效](#尊贵骑士团入场与连麦-pk-舞台) · [双栏点歌广播台](#点歌管理与双栏广播台) · [开源核心组件](#开源核心组件仓库) · [万圣节礼物互动演示](#万圣节礼物互动) · [官方网站](https://frostynight.top/furryup)
+[尊贵骑士团与连麦 PK 特效](#尊贵骑士团入场与连麦-pk-舞台) · [双栏点歌广播台](#点歌管理与双栏广播台) · [万圣节礼物互动演示](#万圣节礼物互动) · [官方网站](https://furryup.frostynight.top/)
 
 ---
 
@@ -140,10 +140,10 @@ https://github.com/user-attachments/assets/77da31ca-e3ed-4c16-97ac-772f43193f05
 
 ### 2. Android 手机与平板客户端
 
-Android 是 FurryUP Studio 的移动客户端，可独立使用，与 Windows 客户端共用同一品牌与 FUS 账号体系。
+Android 是 FurryUP Studio 的移动客户端，可独立使用，与 Windows 客户端共用同一品牌与 FurryUP Studio 账号体系。
 
 <details>
-<summary>查看 Android 平板与手机客户端界面</summary>
+<summary>查看 Android 平板与手机客户端界面（早期预览图，最新安装包为 0.9.1 Beta）</summary>
 
 ![Android 平板首页，准备兽设与直播间](https://github.com/frostynight-furry/furryup-studio-releases/releases/download/android-v0.4.0/FurryUP-Studio-Android-0.4.0-home-tablet.png)
 
@@ -157,43 +157,26 @@ Android 是 FurryUP Studio 的移动客户端，可独立使用，与 Windows �
 
 ---
 
-<a id="开源核心组件仓库"></a>
-
-## 开源核心组件仓库
-
-随 FurryUP Studio 3.0 发布，我们将经过完整重构与生产验证的四大核心模块开源至 GitHub，方便社区开发者参考、复用或二次开发：
-
-| 开源仓库 | 当前版本 | 核心能力说明 |
-| --- | --- | --- |
-| [**furryup-live-connect**](https://github.com/frostynight-furry/furryup-live-connect) | `v0.9.1` | B站、抖音、快手、微信视频号四平台弹幕/礼物/入场/同接快照合流，视频号 24h 礼物目录缓存，以及创作者多平台粉丝与收益同步 |
-| [**furryup-obs-canvas**](https://github.com/frostynight-furry/furryup-obs-canvas) | `v0.3.0` | OBS 16:9 / 9:16 互动合成画布布局契约、指针等比缩放 / Shift 自由拉伸 / Alt 边缘裁切与智能磁吸对齐几何引擎 |
-| [**furryup-song-request-core**](https://github.com/frostynight-furry/furryup-song-request-core) | `v0.3.0` | 弹幕点歌指令解析、冷却与去重队列、LRC 歌词时间轴解析与滑动歌词窗，以及 OBS 当前播放状态投影引擎 |
-| [**furryup-live-assistant-core**](https://github.com/frostynight-furry/furryup-live-assistant-core) | `v0.3.0` | 多平台实时同接人数聚合、观众驻留时长与跨平台身份归并，以及无内容耦合的主播助手核心状态机 |
-
----
-
 ## 安装与内置组件版本
 
-升级前请正常退出正在运行的 FurryUP Studio，再运行 `FurryUPStudio-Setup-3.6.1.exe`。可在 PowerShell 中运行下列命令，并与本版 Release 的 SHA-256 校验值对照：
+升级前请正常退出正在运行的 FurryUP Studio，再运行 `FurryUPStudio-Setup-3.8.1.exe`。可在 PowerShell 中运行下列命令，并与本版 Release 的 SHA-256 校验值对照：
 
 ```powershell
-Get-FileHash .\FurryUPStudio-Setup-3.6.1.exe -Algorithm SHA256
-# SHA-256: BE765350C32CD15C9576311DF7AA57B021C1D432EF74899307B9CF2360D7757E
+Get-FileHash .\FurryUPStudio-Setup-3.8.1.exe -Algorithm SHA256
+# SHA-256: 3AB4307E997892BDC2ACF9FEE92CF0F596376C3CD5A21D9D4CE0D76B0220E3DC
 ```
 
-「组件与更新」页面集中展示内置五大模块、扩展组件与主程序的实时版本状态，支持在软件内直接检查并应用热更新。本版同时发布到 GitHub Releases 与 FUS 软件内更新通道，两处安装包与签名摘要完全一致。
+「组件与更新」页面集中展示内置五大模块、扩展组件与主程序的实时版本状态，支持在软件内直接检查并应用热更新。本版同时发布到 GitHub Releases 与 FurryUP Studio 软件内更新通道，两处安装包与签名摘要完全一致。
 
-| 内置模块 / 插件 / 内容 | 3.6.1 内置版本 |
+| 内置模块 / 扩展组件 | 3.8.1 随版版本 |
 | --- | --- |
-| 多平台直播与创作者数据采集 (`furryup.platform-adapters`) | **1.4.0** |
-| 礼物互动与碰撞引擎 (`furryup.gift-interactions`) | **1.4.2** |
-| 入场特效与守护榜 (`furryup.member-entrance`) | **1.1.0** |
-| 点歌与音频 (`furryup.song-audio`) | **1.6.2** |
-| 画布与 OBS (`furryup.obs-canvas`) | **1.11.1** |
-| 主播助手 (`furryup.live-assistant`) | **0.20.2** |
-| 桌宠联动 / iPhone 投屏预览 | **0.9.2 / 0.9.1** |
-| 礼物内容 v3 | **1.8.2** |
-| 助手策略 / 通用模型规则 | **1.1.0 / 1.0.0** |
+| 多平台直播与创作者数据采集 (`furryup.platform-adapters`) | **1.4.2** |
+| 礼物互动与碰撞引擎 (`furryup.gift-interactions`) | **1.4.3** |
+| 入场特效与守护榜 (`furryup.member-entrance`) | **1.1.1** |
+| 点歌与音频 (`furryup.song-audio`) | **1.6.3** |
+| 画布与 OBS (`furryup.obs-canvas`) | **1.13.0** |
+| 主播助手 (`furryup.live-assistant`) | **0.21.1** |
+| 桌宠联动 / iPhone 投屏预览 (`furryup.desktop-pet` / `furryup.airplay`) | **0.9.4 / 0.9.3** |
 
 ![3.0.0 组件与更新页面，展示四大内置模块新版本、主程序 v3.0.0 状态与扩展组件更新入口](assets/screenshots/plugins-updates.png)
 
